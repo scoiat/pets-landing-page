@@ -73,20 +73,33 @@ body {
 }
 
 /* Container two*/
-.container-two {  
-    margin: auto auto; 
+.container-two {      
     text-align: center;        
     align-items: center;
     justify-content: center;   
     padding: 0 32px; 
     margin-bottom: 16px;
+    margin-top: auto;
+}
+
+.container-two h2 {
+    margin-top: 16px;
+    margin-bottom: 32px;
+ 
 }
 
 .container-two div {        
     display: flex;    
     justify-content: center;
     gap: 32px;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
+}
+
+.container-two figure {
+    width: 150px;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
 }
 
 .container-two img,
@@ -106,7 +119,6 @@ body {
     justify-content: center;   
     
 }
-
 .container-three blockquote {
     width: 70%;  
     color: 1F2937;
