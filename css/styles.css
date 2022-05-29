@@ -18,6 +18,7 @@ body {
 }
 
 .header ul {
+    padding: 0;
     display: flex;
     list-style-type: none;  
     gap: 12px;  
